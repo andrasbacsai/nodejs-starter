@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "theme": "shopify-themekit"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
+  },
+  "dependencies": {
+    "@shopify/themekit": "1.1.4"
   }
 }
